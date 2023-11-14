@@ -12,7 +12,6 @@ st.subheader('Que informacion se puede obtener de cada clente') #Subtitulo
 excel_file = 'fraudes_con_na 2.xlsx' #Nombre archivo a importar  'xlsx' hace referencia a excel
 
 df = pd.read_excel(excel_file, #importo el archivo excel
-                   sheet_name = sheet_name, #le digo cual hoja necesito
                    usecols = 'A:I', #aqui traigo las columnas que quiero usar
                    header =0) #desde que fila debe empezar a tomarme la informacion *Empieza a contar desde 0*
 df
