@@ -15,3 +15,4 @@ df = pd.read_excel(excel_file, #importo el archivo excel
                    usecols = 'A:I', #aqui traigo las columnas que quiero usar
                    header =0) #desde que fila debe empezar a tomarme la informacion *Empieza a contar desde 0*
 df
+
